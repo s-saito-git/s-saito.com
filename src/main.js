@@ -5,6 +5,8 @@ import Vue from 'vue'
 import VueOnsen from 'vue-onsenui';
 import App from './App.vue'
 
+require('@/assets/sass/combine.scss')
+
 Vue.config.productionTip = false
 Vue.use(VueOnsen); 
 

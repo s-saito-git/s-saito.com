@@ -1,12 +1,11 @@
 <template>
-  <v-ons-page>
-    <v-ons-tabbar position="auto" :visible="true" :tabs="tabs" :index.sync="tabIndex">
-    </v-ons-tabbar>
-  </v-ons-page>
+  <v-ons-tabbar position="auto" :visible="true" :tabs="tabs" :index.sync="tabIndex">
+  </v-ons-tabbar>
 </template>
 
 <script>
 import Home from '../views/Home'
+import Works from '../views/Works'
 import Youtube from '../views/Youtube'
 import Other from '../views/Other'
 
@@ -22,12 +21,17 @@ export default {
         page: Home,
         },
         {
-        icon: 'fa-user',
+        icon: 'fa-folder',
+        label: 'Works',
+        page: Works,
+        },
+        {
+        icon: 'fa-youtube',
         label: 'Youtube',
         page: Youtube,
         },
         {
-        icon: 'fa-cog',
+        icon: 'fa-ellipsis-h',
         label: 'Other',
         page: Other,
         }
