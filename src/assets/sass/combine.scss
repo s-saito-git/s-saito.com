@@ -1,4 +1,9 @@
 @charset "utf-8";
 
+$color-white: #ffffff;
+$color-border: #F0F0F0;
+$color-text-gray: #6E6E6E;
+
+@import 'reset.scss';
 @import 'original.scss';
 @import 'overwrite.scss';

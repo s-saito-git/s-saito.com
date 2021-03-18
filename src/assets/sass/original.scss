@@ -1,2 +1,98 @@
 @charset "utf-8";
 
+//all
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.4rem;
+  line-height: 1.5;
+}
+.page-title {
+  font-size: 2.8rem;
+  font-weight: 700;
+}
+
+//home
+.mv {
+  
+  &__img {
+    width: 100%;
+    vertical-align: top;
+  }
+  &__profile {
+    width: 100%;
+    margin-top: -3.2rem;
+  }
+  &__profile-wrap {
+    padding: 0 1.6rem 1.6rem 1.6rem;
+  }
+  &__profile-inner {
+    background-color: $color-white;
+    padding: 1.6rem;
+    border-radius: 0.8rem;
+    -webkit-filter: drop-shadow(0 0 0.6rem rgba(0,0,0,.2));
+    filter: drop-shadow(0 0 0.6rem rgba(0,0,0,.2));
+  }
+  .profile-title {
+    margin: 0 0 0.8rem 0;
+  }
+}
+.career {
+  width: 100%;
+
+  &__wrap {
+      padding: 0 1.6rem 1.6rem 1.6rem;
+    }
+  &__inner {
+    border-top: 0.1rem solid $color-border;
+  }
+  .career__title {
+    margin: 1.6rem 0;
+  }
+  &__list {
+    list-style: none;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin-bottom: 1.6rem;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+  &__img {
+    margin-right: 0.8rem;
+  }
+  &__term {
+    color: $color-text-gray;
+  }
+  &__position {
+    margin-left: 0.8rem;
+  }
+}
+
+//works
+.works {
+  padding: 1.6rem;
+
+  &__list {
+    list-style: none;
+    margin-top: 1.6rem;
+    padding-bottom: 1.6rem;
+    border-bottom: 0.1rem solid $color-border;
+
+    &:last-child {
+      padding-bottom: 0;
+      border-bottom: none;
+    }
+  }
+  &__img {
+    width: 100%;
+    border-radius: 0.8rem;
+    vertical-align: top;
+  }
+  .works__product {
+    margin: 0.4rem 0rem;
+  }
+}
