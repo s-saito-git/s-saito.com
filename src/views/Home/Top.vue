@@ -1,6 +1,5 @@
 <template>
   <v-ons-page>
-    
     <div class="mv">
       <img class="mv__img" src="/img/mv.jpg">
       <div class="mv__profile">

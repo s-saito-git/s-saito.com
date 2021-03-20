@@ -8,7 +8,7 @@
 			@push-page="push($event)"
 			@back-page="back()"
 		/>
-  </v-ons-page>
+	</v-ons-page>
 </template>
 
 <script>

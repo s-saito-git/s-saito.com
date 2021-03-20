@@ -2,7 +2,7 @@
 	<v-ons-page>
 		<v-ons-toolbar>
 			<div class="left">
-			<v-ons-back-button @click.prevent="back">Page 1</v-ons-back-button>
+				<v-ons-back-button @click.prevent="back">Page 1</v-ons-back-button>
 			</div>
 			<div class="center">
 				<slot></slot>
@@ -16,10 +16,10 @@
 
 <script>
 export default {
-  methods: {
-    back() {
-		this.$emit('back-page');	
-	}
+	methods: {
+		back() {
+			this.$emit('back-page');	
+		}
   }
 }
 </script>

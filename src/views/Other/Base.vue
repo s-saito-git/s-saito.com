@@ -26,7 +26,6 @@ data() {
 			this.pageStack.push(page)
 		},
 		back() {
-			console.log('あいうえお');
 			this.pageStack.splice(this.pageStack.length - 1, 1)
 		}
 	},
