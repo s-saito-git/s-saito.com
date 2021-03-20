@@ -4,10 +4,9 @@
 </template>
 
 <script>
-import Home from '../views/Home'
-import Works from '../views/Works'
-import Youtube from '../views/Youtube'
-import Other from '../views/Other'
+import Home from '../views/Home/Base'
+import Works from '../views/Works/Base'
+import Other from '../views/Other/Base'
 
 export default {
   name: 'index',
@@ -24,11 +23,6 @@ export default {
         icon: 'fa-folder',
         label: 'Works',
         page: Works,
-        },
-        {
-        icon: 'fa-youtube',
-        label: 'Youtube',
-        page: Youtube,
         },
         {
         icon: 'fa-ellipsis-h',
