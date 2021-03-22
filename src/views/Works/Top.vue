@@ -3,31 +3,40 @@
     <div class="works">
       <h2>Works</h2>
       <ul>
-        <!-- <li class="works__list" v-for="(work,index) in works" :key="index" @click="pushSuutaApp()">
-          <img class="works__img" :src="work.img">
-          <h3 class="works__product">
-            {{ work.product }}
-          </h3>
-          <p>
-            {{ work.description }}
-          </p>
-        </li> -->
         <li class="works__list" @click="pushSuutaApp()">
-          <img class="works__img">
+          <img class="works__img" src="/img/works/suuta_app@2x.png">
           <h3 class="works__product">
-            プロダクト1
+            SUUTA App
           </h3>
           <p>
-            プロダクト1の説明
+            CtoCレンタルプラットフォーム「SUUTA（スータ）」
           </p>
         </li>
         <li class="works__list" @click="pushSuutaWeb()">
-          <img class="works__img">
+          <img class="works__img" src="/img/works/suuta_business@2x.png">
           <h3 class="works__product">
-            プロダクト2
+            SUUTA Business
           </h3>
           <p>
-            プロダクト2の説明
+            CtoCレンタルプラットフォーム「SUUTA（スータ）」のPC版
+          </p>
+        </li>
+        <li class="works__list" @click="pushSuutaWeb()">
+          <img class="works__img" src="/img/works/suuta_lp@2x.png">
+          <h3 class="works__product">
+            SUUTA LP
+          </h3>
+          <p>
+            CtoCレンタルプラットフォーム「SUUTA（スータ）」のLP
+          </p>
+        </li>
+        <li class="works__list" @click="pushSuutaWeb()">
+          <img class="works__img" src="/img/works/suuta_life@2x.png">
+          <h3 class="works__product">
+            SUUTA LIFE
+          </h3>
+          <p>
+            CtoCレンタルプラットフォーム「SUUTA（スータ）」のメディアサイト
           </p>
         </li>
       </ul>
@@ -40,32 +49,6 @@ import SuutaApp from "./SuutaApp";
 import SuutaWeb from "./SuutaWeb.vue"
 
 export default {
-  // data: function() {
-  //   return {
-  //     works: [
-  //       { 
-  //         img: '/img/suuta_app.jpg',
-  //         product: 'SUUTA App',
-  //         description: 'CtoCレンタルプラットフォーム「SUUTA（スータ）」'
-  //       },
-  //       { 
-  //         img: '/img/suuta_app.jpg',
-  //         product: 'SUUTA App',
-  //         description: 'CtoCレンタルプラットフォーム「SUUTA（スータ）」'
-  //       },
-  //       { 
-  //         img: '/img/suuta_app.jpg',
-  //         product: 'SUUTA App',
-  //         description: 'CtoCレンタルプラットフォーム「SUUTA（スータ）」'
-  //       },
-  //       { 
-  //         img: '/img/suuta_app.jpg',
-  //         product: 'SUUTA App',
-  //         description: 'CtoCレンタルプラットフォーム「SUUTA（スータ）」'
-  //       },
-  //     ]
-  //   };
-  // },
   methods: {
     pushSuutaApp() {
       this.$emit('push-page', SuutaApp);

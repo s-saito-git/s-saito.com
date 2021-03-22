@@ -1,7 +1,7 @@
 <template>
   <v-ons-page>
     <div class="mv">
-      <img class="mv__img" src="/img/mv.jpg">
+      <img class="mv__img" src="/img/home/mv.jpg">
       <div class="mv__profile">
         <div class="mv__profile-wrap">
           <div class="mv__profile-inner">

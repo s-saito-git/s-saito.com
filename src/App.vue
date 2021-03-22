@@ -1,5 +1,5 @@
-<template id="main-page">
-  <v-ons-tabbar @push-page="push($event)" @back-page="back()" position="auto" :visible="true" :tabs="tabs" :index.sync="tabIndex">
+<template>
+  <v-ons-tabbar id="main-content" @push-page="push($event)" @back-page="back()" position="auto" :visible="true" :tabs="tabs" :index.sync="tabIndex">
   </v-ons-tabbar>
 </template>
 

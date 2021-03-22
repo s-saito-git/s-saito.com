@@ -7,10 +7,24 @@ html {
 body {
   font-size: 1.4rem;
   line-height: 1.5;
+  background-color: #F5FAFA;
 }
 .page-title {
   font-size: 2.8rem;
   font-weight: 700;
+}
+@media (min-width: 768px) {
+  #main-content {
+    width: 76.8rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    -webkit-filter: drop-shadow(0 0 0.6rem rgba(0,0,0,.2));
+    filter: drop-shadow(0 0 0.6rem rgba(0,0,0,.2));
+  }
 }
 
 //home
@@ -94,5 +108,54 @@ body {
   }
   .works__product {
     margin: 0.4rem 0rem;
+  }
+}
+.works-child {
+  padding: 1.6rem;
+
+  &__text-wrap {
+    margin-bottom: 1.6rem;
+  }
+  &__title {
+    margin-bottom: 0.8rem;
+  }
+  &__year {
+    color: $color-text-gray;
+  }
+  &__2column {
+
+    img {
+      margin-bottom: 1.6rem;
+
+      &:last-child {
+        margin-bottom: 0rem;
+      }
+    }
+  }
+  &__2column-img {
+    width: 100%;
+    vertical-align: top;
+  }
+}
+@media (min-width: 768px) {
+  .works-child {
+  
+    &__2column {
+      display: flex;
+      flex-wrap: nowrap;
+      justify-content: space-between;
+      margin-bottom: 1.6rem;
+
+      &:last-child {
+        margin-bottom: 0rem;
+      }
+
+      img {
+        margin-bottom: 0;
+      }
+    }
+    &__2column-img {
+      width: 36rem;
+    }
   }
 }
