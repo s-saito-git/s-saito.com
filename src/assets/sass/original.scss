@@ -7,7 +7,7 @@ html {
 body {
   font-size: 1.4rem;
   line-height: 1.5;
-  background-color: #F5FAFA;
+  background-color: #F2F1F5;
 }
 .page-title {
   font-size: 2.8rem;
@@ -92,8 +92,8 @@ body {
 
   &__list {
     list-style: none;
-    margin-top: 1.6rem;
-    padding-bottom: 1.6rem;
+    margin-top: 3.2rem;
+    padding-bottom: 3.2rem;
     border-bottom: 0.1rem solid $color-border;
 
     &:last-child {
@@ -110,11 +110,21 @@ body {
     margin: 0.4rem 0rem;
   }
 }
+@media (min-width: 768px) {
+  .works {
+    padding: 3.2rem;
+  
+    &__list {
+      margin-top: 3.2rem;
+      padding-bottom: 3.2rem;
+    }
+  }
+}
 .works-child {
-  padding: 1.6rem;
+  padding: 4.8rem;
 
   &__text-wrap {
-    margin-bottom: 1.6rem;
+    text-align: center;
   }
   &__title {
     margin-bottom: 0.8rem;
@@ -125,11 +135,9 @@ body {
   &__2column {
 
     img {
-      margin-bottom: 1.6rem;
-
-      &:last-child {
-        margin-bottom: 0rem;
-      }
+      margin-top: 4.8rem;
+      -webkit-filter: drop-shadow(0 0 0.6rem rgba(0,0,0,.2));
+      filter: drop-shadow(0 0 0.6rem rgba(0,0,0,.2));
     }
   }
   &__2column-img {
@@ -144,18 +152,22 @@ body {
       display: flex;
       flex-wrap: nowrap;
       justify-content: space-between;
-      margin-bottom: 1.6rem;
-
-      &:last-child {
-        margin-bottom: 0rem;
-      }
 
       img {
-        margin-bottom: 0;
+        margin-top: 4.8rem;
       }
     }
     &__2column-img {
-      width: 36rem;
+      width: 31.2rem;
     }
+  }
+}
+//works
+.other {
+  padding: 1.6rem;
+}
+@media (min-width: 768px) {
+  .other {
+    padding: 3.2rem;
   }
 }
