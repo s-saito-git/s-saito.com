@@ -1,16 +1,19 @@
 @charset "utf-8";
-
+.page__content h1, .page__content h2, .page__content h3, .page__content h4, .page__content h5 {
+    font-family: -apple-system, 'Helvetica Neue', 'Helvetica', 'Arial', 'Lucida Grande', sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
 .page__content h1 {
     font-size: 2.8rem;
     font-weight: 700;
     margin: 0;
 }
 .page__content h2 {
-    font-size: 2.8rem;
+    font-size: 3.4rem;
     font-weight: 700;
     margin: 0;
-    padding-bottom: 0.8rem;
-    border-bottom: 0.1rem solid $color-border;
+    padding-bottom: 1.6rem;
+    //border-bottom: 0.1rem solid $color-border;
 }
 .page__content h3 {
     font-size: 2.2rem;
@@ -19,4 +22,18 @@
 }
 .page__background {
     background-color: $color-white;
+}
+.list-item__thumbnail {
+    width: 4.8rem;
+    height: 4.8rem;
+    border-radius: 4.8rem;
+}
+:checked + .tabbar__button {
+    color: $color-main;
+}
+.back-button {
+    color: $color-main;
+}
+.back-button__icon {
+    fill: $color-main;
 }
