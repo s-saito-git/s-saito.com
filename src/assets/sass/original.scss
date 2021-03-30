@@ -53,6 +53,14 @@ body {
     margin: 0 0 0.8rem 0;
   }
 }
+@media (min-width: 768px) {
+  .mv {
+  
+    &__profile-wrap {
+      padding: 0 2.4rem 2.4rem 2.4rem;
+    }
+  }
+}
 .career {
   width: 100%;
 
@@ -84,6 +92,14 @@ body {
   }
   &__position {
     margin-left: 0.8rem;
+  }
+}
+@media (min-width: 768px) {
+  .career {
+  
+    &__wrap {
+      padding: 0 2.4rem 2.4rem 2.4rem;
+    }
   }
 }
 
