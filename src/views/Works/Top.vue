@@ -21,7 +21,7 @@
             CtoCレンタルプラットフォーム「SUUTA（スータ）」のPC版
           </p>
         </li>
-        <li class="works__list" @click="pushSuutaWeb()">
+        <li class="works__list" @click="pushSuutaLp()">
           <img class="works__img" src="/img/works/suuta_lp@2x.png">
           <h3 class="works__product">
             SUUTA LP
@@ -30,7 +30,7 @@
             CtoCレンタルプラットフォーム「SUUTA（スータ）」のLP
           </p>
         </li>
-        <li class="works__list" @click="pushSuutaWeb()">
+        <li class="works__list" @click="pushSuutaLife()">
           <img class="works__img" src="/img/works/suuta_life@2x.png">
           <h3 class="works__product">
             SUUTA LIFE
@@ -47,6 +47,8 @@
 <script>
 import SuutaApp from "./SuutaApp";
 import SuutaWeb from "./SuutaWeb.vue"
+import SuutaLp from "./SuutaLp.vue"
+import SuutaLife from "./SuutaLife.vue"
 
 export default {
   methods: {
@@ -55,6 +57,12 @@ export default {
     },
     pushSuutaWeb() {
       this.$emit('push-page', SuutaWeb);
+    },
+    pushSuutaLp() {
+      this.$emit('push-page', SuutaLp);
+    },
+    pushSuutaLife() {
+      this.$emit('push-page', SuutaLife);
     }
   }
 }

@@ -164,8 +164,20 @@ body {
   &__year {
     color: $color-text-gray;
   }
-  &__2column {
+  &__1column {
 
+    img {
+      margin-top: 4.8rem;
+      -webkit-filter: drop-shadow(0 0 0.6rem rgba(0,0,0,.2));
+      filter: drop-shadow(0 0 0.6rem rgba(0,0,0,.2));
+    }
+  }
+  &__1column-img {
+    width: 100%;
+    vertical-align: top;
+  }
+  &__2column {
+  
     img {
       margin-top: 4.8rem;
       -webkit-filter: drop-shadow(0 0 0.6rem rgba(0,0,0,.2));
@@ -184,10 +196,6 @@ body {
       display: flex;
       flex-wrap: nowrap;
       justify-content: space-between;
-
-      img {
-        margin-top: 4.8rem;
-      }
     }
     &__2column-img {
       width: 31.2rem;
