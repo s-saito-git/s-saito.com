@@ -9,7 +9,7 @@
               Shinsuke Saito
             </h1>
             <p>
-              <b>Age28 / tokyo</b>
+              <b>Age28 / Tokyo</b>
             </p><br>
             <p>
               初めまして、齋藤です。<br>
