@@ -11,7 +11,7 @@
           </div>
           <div class="center">
             <span class="list-item__title">Shinsuke Saito</span>
-            <span class="list-item__subtitle">On the Internet</span>
+            <span class="list-item__subtitle">Age28 / Tokyo</span>
           </div>
         </v-ons-list-item>
       </v-ons-list>
