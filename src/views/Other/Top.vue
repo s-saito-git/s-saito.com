@@ -27,7 +27,7 @@
             <v-ons-icon icon="fa-external-link-alt" class="list-item__icon"></v-ons-icon>
           </div>
         </v-ons-list-item>
-        <v-ons-list-item tappable onClick="window.open('http://google.jp/')">
+        <v-ons-list-item tappable onClick="window.open('https://twitter.com/s_s_saito')">
           <div class="left">
             <v-ons-icon icon="fa-twitter" class="list-item__icon"></v-ons-icon>
           </div>
