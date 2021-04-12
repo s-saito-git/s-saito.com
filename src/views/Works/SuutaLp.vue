@@ -26,7 +26,7 @@
 				</p>
 			</div>
 			<div class="works-child__1column">
-				<img class="works-child__1column-img" src="/img/works/suuta_lp/suuta_lp_01@2x.jpg">
+				<img class="works-child__1column-img" src="@/assets/img/works/suuta_lp/suuta_lp_01@2x.jpg">
 			</div>
 		</div>
 	</v-ons-page>

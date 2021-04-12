@@ -1,7 +1,7 @@
 <template>
   <v-ons-page>
     <div class="mv">
-      <img class="mv__img" src="/img/home/mv.jpg">
+      <img class="mv__img" src="@/assets/img/home/mv.jpg">
       <div class="mv__profile">
         <div class="mv__profile-wrap">
           <div class="mv__profile-inner">
@@ -50,31 +50,31 @@ export default {
     return {
       careers: [
         { 
-          img: '/img/home/ico_company.svg',
+          img: require('@/assets/img/home/ico_company.svg'),
           term: '2019 -',
           company: '株式会社あまたす',
           position: 'UI/UXデザイナー'
         },
         { 
-          img: '/img/home/ico_company.svg',
+          img: require('@/assets/img/home/ico_company.svg'),
           term: '2018 - 2019',
           company: '株式会社エイムプレイス',
           position: 'Webデザイナー'
         },
         { 
-          img: '/img/home/ico_company.svg',
+          img: require('@/assets/img/home/ico_company.svg'),
           term: '2016 - 2018',
           company: '株式会社GypsophilA',
           position: 'Webデザイナー'
         },
         { 
-          img: '/img/home/ico_company.svg',
+          img: require('@/assets/img/home/ico_company.svg'),
           term: '2013 - 2016',
           company: '株式会社エストール',
           position: 'グラフィックデザイナー'
         },
         { 
-          img: '/img/home/ico_school.svg',
+          img: require('@/assets/img/home/ico_school.svg'),
           term: '2011 - 2013',
           company: '東京ビジュアルアーツ',
           position: 'マスコミ編集学科'

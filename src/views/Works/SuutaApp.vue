@@ -21,20 +21,20 @@
 				</p>
 			</div>
 			<div class="works-child__2column">
-				<img class="works-child__2column-img" src="/img/works/suuta_app/suuta_app_01@2x.jpg">
-				<img class="works-child__2column-img" src="/img/works/suuta_app/suuta_app_02@2x.jpg">
+				<img class="works-child__2column-img" src="@/assets/img/works/suuta_app/suuta_app_01@2x.jpg">
+				<img class="works-child__2column-img" src="@/assets/img/works/suuta_app/suuta_app_02@2x.jpg">
 			</div>
 			<div class="works-child__2column">
-				<img class="works-child__2column-img" src="/img/works/suuta_app/suuta_app_03@2x.jpg">
-				<img class="works-child__2column-img" src="/img/works/suuta_app/suuta_app_04@2x.jpg">
+				<img class="works-child__2column-img" src="@/assets/img/works/suuta_app/suuta_app_03@2x.jpg">
+				<img class="works-child__2column-img" src="@/assets/img/works/suuta_app/suuta_app_04@2x.jpg">
 			</div>
 			<div class="works-child__2column">
-				<img class="works-child__2column-img" src="/img/works/suuta_app/suuta_app_05@2x.jpg">
-				<img class="works-child__2column-img" src="/img/works/suuta_app/suuta_app_06@2x.jpg">
+				<img class="works-child__2column-img" src="@/assets/img/works/suuta_app/suuta_app_05@2x.jpg">
+				<img class="works-child__2column-img" src="@/assets/img/works/suuta_app/suuta_app_06@2x.jpg">
 			</div>
 			<div class="works-child__2column">
-				<img class="works-child__2column-img" src="/img/works/suuta_app/suuta_app_07@2x.jpg">
-				<img class="works-child__2column-img" src="/img/works/suuta_app/suuta_app_08@2x.jpg">
+				<img class="works-child__2column-img" src="@/assets/img/works/suuta_app/suuta_app_07@2x.jpg">
+				<img class="works-child__2column-img" src="@/assets/img/works/suuta_app/suuta_app_08@2x.jpg">
 			</div>
 		</div>
 	</v-ons-page>
@@ -46,6 +46,6 @@ export default {
 		back() {
 			this.$emit('back-page');	
 		}
-  }
+	}
 }
 </script>
