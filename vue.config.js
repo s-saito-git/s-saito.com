@@ -1,6 +1,7 @@
 module.exports = {
   publicPath: '/s-saito.com/',
   outputDir: 'docs',
+  baseUrl: './',
   css: {
     loaderOptions: {
       scss: {
