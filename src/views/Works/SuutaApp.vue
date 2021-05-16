@@ -17,7 +17,7 @@
 					2021
 				</p>
 				<p>
-					UIUX Design / HTML,CSS / Vue.js
+					UIUX Design / HTML5 / CSS3 / Sass / Vue.js
 				</p>
 			</div>
 			<div class="works-child__2column">

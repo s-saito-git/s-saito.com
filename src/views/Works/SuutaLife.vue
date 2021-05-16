@@ -17,7 +17,7 @@
 					2020
 				</p>
 				<p>
-					WordPress / UIUX Design / HTML,CSS / jQuery
+					WordPress / UI Design / HTML5 / CSS3 / Sass / jQuery / php
 				</p>
 				<p>
 					<a href="https://suuta-life.com/" target="blank">

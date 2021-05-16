@@ -17,7 +17,7 @@
 					2020
 				</p>
 				<p>
-					UIUX Design / HTML,CSS / jQuery
+					UI Design / HTML5 / CSS3 / jQuery
 				</p>
 				<p>
 					<a href="https://about.suuta.com/am_lp_01/" target="blank">

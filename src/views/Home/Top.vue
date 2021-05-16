@@ -12,9 +12,9 @@
               <b>Age28 / Tokyo</b>
             </p><br>
             <p>
-              初めまして、齋藤です。<br>
-              野球が大好きボーイです。<br><br>
-              株式会社あまたすでアプリや管理画面のUI/UXデザイン＆マークアップをしています。
+              初めまして、齋藤です。<br><br>
+              現在はAdobe XD, HTML5, CSS3, Sass, Vue.jsを駆使して、iOSアプリ（Web Viewページ）や管理画面の開発に携わっています。<br><br>
+              UIデザイナーということもありデザインに忠実なコーディングが得意です。<br>
             </p>
           </div>
         </div>
@@ -53,19 +53,19 @@ export default {
           img: require('@/assets/img/home/ico_company.svg'),
           term: '2019 -',
           company: '株式会社あまたす',
-          position: 'UI/UXデザイナー'
+          position: 'UI/UXデザイナー / マークアップエンジニア'
         },
         { 
           img: require('@/assets/img/home/ico_company.svg'),
           term: '2018 - 2019',
           company: '株式会社エイムプレイス',
-          position: 'Webデザイナー'
+          position: 'Webデザイナー / コーダー'
         },
         { 
           img: require('@/assets/img/home/ico_company.svg'),
           term: '2016 - 2018',
           company: '株式会社GypsophilA',
-          position: 'Webデザイナー'
+          position: 'Webデザイナー / コーダー'
         },
         { 
           img: require('@/assets/img/home/ico_company.svg'),

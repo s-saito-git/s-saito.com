@@ -17,11 +17,11 @@
 					2021
 				</p>
 				<p>
-					UIUX Design / HTML,CSS / Vue.js 
+					UIUX Design / HTML5 / CSS3 / Sass / Vue.js / Nuxt.js
 				</p>
 				<p>
-					<a href="#" target="blank">
-						https://###
+					<a href="https://suuta.com/signin" target="blank">
+						https://suuta.com/signin
 					</a>
 				</p>
 			</div>

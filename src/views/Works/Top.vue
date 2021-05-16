@@ -12,7 +12,7 @@
             CtoCレンタルプラットフォーム「SUUTA（スータ）」
           </p>
         </li>
-        <!-- <li class="works__list" @click="pushSuutaWeb()">
+        <li class="works__list" @click="pushSuutaWeb()">
           <img class="works__img" src="@/assets/img/works/suuta_business@2x.png">
           <h3 class="works__product">
             SUUTA Business
@@ -20,7 +20,7 @@
           <p>
             CtoCレンタルプラットフォーム「SUUTA（スータ）」のPC版
           </p>
-        </li> -->
+        </li>
         <li class="works__list" @click="pushSuutaLp()">
           <img class="works__img" src="@/assets/img/works/suuta_lp@2x.png">
           <h3 class="works__product">
