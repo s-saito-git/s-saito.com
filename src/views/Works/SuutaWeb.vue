@@ -31,6 +31,9 @@
       <div class="works-child__1column">
 				<img class="works-child__1column-img" src="@/assets/img/works/suuta_web/suuta_web_02@2x.jpg">
 			</div>
+			<div class="works-child__1column">
+				<img class="works-child__1column-img" src="@/assets/img/works/suuta_web/suuta_web_02@2x.jpg">
+			</div>
 		</div>
   </v-ons-page>
 </template>
