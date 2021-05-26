@@ -14,7 +14,6 @@
             <p>
               初めまして、UI/UXデザイナー・コーダーの齋藤です。<br><br>
               現在はAdobe XD, HTML5, CSS3, Sass, Vue.jsを駆使して、iOSアプリ（Web Viewページ）や管理画面の開発に携わっています。<br><br>
-              UIデザイナーということもありデザインに忠実なコーディングが得意です。<br><br>
               こちらのポートフォリオはVue.js / Onsen UIで作成されており、<br>
               PCではiPadサイズ表示、SPではiPhoneサイズ表示され、BEMを用いたレスポンシブサイトとなっております。
             </p>
