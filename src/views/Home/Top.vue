@@ -12,9 +12,11 @@
               <b>Age28 / Tokyo</b>
             </p><br>
             <p>
-              初めまして、UI/UXデザイナー・マークアップエンジニアの齋藤です。<br><br>
+              初めまして、UI/UXデザイナー・コーダーの齋藤です。<br><br>
               現在はAdobe XD, HTML5, CSS3, Sass, Vue.jsを駆使して、iOSアプリ（Web Viewページ）や管理画面の開発に携わっています。<br><br>
-              UIデザイナーということもありデザインに忠実なコーディングが得意です。
+              UIデザイナーということもありデザインに忠実なコーディングが得意です。<br><br>
+              こちらのポートフォリオはVue.js / Onsen UIで作成されており、<br>
+              PCではiPadサイズ表示、SPではiPhoneサイズ表示され、BEMを用いたレスポンシブサイトとなっております。
             </p>
           </div>
         </div>
@@ -53,7 +55,7 @@ export default {
           img: require('@/assets/img/home/ico_company.svg'),
           term: '2019 -',
           company: '株式会社あまたす',
-          position: 'UI/UXデザイナー / マークアップエンジニア'
+          position: 'UI/UXデザイナー / コーダー'
         },
         { 
           img: require('@/assets/img/home/ico_company.svg'),

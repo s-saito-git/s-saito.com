@@ -36,6 +36,18 @@
 				<img class="works-child__2column-img" src="@/assets/img/works/suuta_app/suuta_app_07@2x.jpg">
 				<img class="works-child__2column-img" src="@/assets/img/works/suuta_app/suuta_app_08@2x.jpg">
 			</div>
+			<div class="works-child__2column">
+				<img class="works-child__2column-img" src="@/assets/img/works/suuta_app/suuta_app_09@2x.jpg">
+				<img class="works-child__2column-img" src="@/assets/img/works/suuta_app/suuta_app_10@2x.jpg">
+			</div>
+			<div class="works-child__2column">
+				<img class="works-child__2column-img" src="@/assets/img/works/suuta_app/suuta_app_11@2x.jpg">
+				<img class="works-child__2column-img" src="@/assets/img/works/suuta_app/suuta_app_12@2x.jpg">
+			</div>
+			<div class="works-child__2column">
+				<img class="works-child__2column-img" src="@/assets/img/works/suuta_app/suuta_app_13@2x.jpg">
+				<img class="works-child__2column-img" src="@/assets/img/works/suuta_app/suuta_app_14@2x.jpg">
+			</div>
 		</div>
 	</v-ons-page>
 </template>
